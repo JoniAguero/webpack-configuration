@@ -4,7 +4,8 @@
   "description": "Webpack Configuration",
   "main": "index.js",
   "scripts": {
-    "build:dev": "webpack --mode development"
+    "build:internal": "webpack --mode development",
+    "build:external": "webpack --config ./external/webpack.config.js --mode development"
   },
   "author": "JoniAguero",
   "license": "MIT",
