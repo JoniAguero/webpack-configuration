@@ -7,7 +7,8 @@
     "build:internal": "webpack --mode development",
     "build:external": "webpack --config ./external/webpack.config.js --mode development",
     "build:css": "webpack --config ./css-style-loader/webpack.config.js --mode development",
-    "build:extract": "webpack --config ./plugin-extract-text/webpack.config.js --mode development"
+    "build:extract": "webpack --config ./plugin-extract-text/webpack.config.js --mode development",
+    "build:multi": "webpack --config ./multiple-entry-points/webpack.config.js --mode development"
   },
   "author": "JoniAguero",
   "license": "MIT",
